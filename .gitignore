@@ -1,0 +1,6 @@
+# ignore binaries
+
+build/
+*.3dsx
+*.elf
+*.smdh
