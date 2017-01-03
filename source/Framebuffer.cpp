@@ -1,6 +1,7 @@
 #include "Framebuffer.hpp"
 
 #include <3ds.h>
+#include <string.h>
 
 FFramebuffer * GFramebufferTopLeft;
 FFramebuffer * GFramebufferBottom;
