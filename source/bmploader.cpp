@@ -4,6 +4,7 @@
 #include <cstring>
 #include <cerrno>
 #include <3ds.h>
+#include <stdlib.h>
 
 typedef struct __attribute__ ((__packed__))
 {

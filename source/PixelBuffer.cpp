@@ -1,6 +1,7 @@
 #include "PixelBuffer.hpp"
 
 #include <cstring>
+#include <stdlib.h>
 
 FPixelBuffer::FPixelBuffer (u16 w, u16 h, EPixelBufferFormat format)
 		: m_width(w), m_height(h), m_fmt(format)

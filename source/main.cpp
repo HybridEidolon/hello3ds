@@ -27,8 +27,11 @@ int main (int argc, char ** argv)
 	// Initialize services
 	srvInit();
 	aptInit();
-	hidInit(NULL);
-	gfxInit();
+	gfxInit(
+		gfxGetScreenFormat(GFX_TOP),
+		gfxGetScreenFormat(GFX_BOTTOM),
+	true);
+	hidInit();
 	fsInit();
 	sdmcInit();
 	//gfxSet3D(true); // uncomment if using stereoscopic 3D
